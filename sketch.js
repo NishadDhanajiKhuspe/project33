@@ -16,7 +16,7 @@ function draw() {
   drawSprites();
 }
 function keyPressed(){
-  if(keyPressed === 32){
+  if(keyCode === 32){
     backGround.changeImage(backGroundImage);
   }
 }
